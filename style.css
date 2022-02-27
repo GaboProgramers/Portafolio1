@@ -781,7 +781,7 @@ header {
      /* ========== Navegacion ========== */
 
      nav button i {
-         margin-right: 1rem;
+         margin-right: -3rem;
          font-size: 2rem;
      }
 
@@ -896,5 +896,11 @@ header {
 
      .contacto__container form button {
          margin-left: 10rem;
+     }
+ }
+
+ @media screen and (max-width: 400px) {
+     .contacto__container form button {
+         margin-left: 8rem;
      }
  }
